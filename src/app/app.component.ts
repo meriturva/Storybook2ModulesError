@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'storybookDropdown';
+
+  public areaList: Array<string> = [
+    "Boston",
+    "Chicago",
+    "Houston",
+    "Los Angeles",
+    "Miami",
+    "New York",
+    "Philadelphia",
+    "San Francisco",
+    "Seattle",
+  ];
 }
