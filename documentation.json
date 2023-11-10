@@ -500,7 +500,7 @@
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Meta<DropDownListComponent>",
-                "defaultValue": "{\r\n  title: 'Kendo/DropDownList',\r\n  component: DropDownListComponent,\r\n  decorators: [\r\n    moduleMetadata({\r\n      imports: [DropDownListModule]})\r\n  ],\r\n\r\n  tags: ['autodocs'],\r\n  render: (args: DropDownListComponent) => ({\r\n    props: {\r\n      ...args,\r\n    },\r\n  })\r\n}"
+                "defaultValue": "{\n  title: 'Kendo/DropDownList',\n  component: DropDownListComponent,\n  decorators: [\n    moduleMetadata({\n      imports: [DropDownListModule]})\n  ],\n\n  tags: ['autodocs'],\n  render: (args: DropDownListComponent) => ({\n    props: {\n      ...args,\n    },\n  })\n}"
             },
             {
                 "name": "meta",
@@ -530,7 +530,7 @@
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
-                "defaultValue": "{\r\n  args: {\r\n    data: ['X-Small', 'Small', 'Medium', 'Large', 'X-Large', '2X-Large']\r\n  },\r\n}"
+                "defaultValue": "{\n  args: {\n    data: ['X-Small', 'Small', 'Medium', 'Large', 'X-Large', '2X-Large']\n  },\n}"
             },
             {
                 "name": "preview",
@@ -747,7 +747,7 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Meta<DropDownListComponent>",
-                    "defaultValue": "{\r\n  title: 'Kendo/DropDownList',\r\n  component: DropDownListComponent,\r\n  decorators: [\r\n    moduleMetadata({\r\n      imports: [DropDownListModule]})\r\n  ],\r\n\r\n  tags: ['autodocs'],\r\n  render: (args: DropDownListComponent) => ({\r\n    props: {\r\n      ...args,\r\n    },\r\n  })\r\n}"
+                    "defaultValue": "{\n  title: 'Kendo/DropDownList',\n  component: DropDownListComponent,\n  decorators: [\n    moduleMetadata({\n      imports: [DropDownListModule]})\n  ],\n\n  tags: ['autodocs'],\n  render: (args: DropDownListComponent) => ({\n    props: {\n      ...args,\n    },\n  })\n}"
                 },
                 {
                     "name": "Normal",
@@ -757,7 +757,7 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
-                    "defaultValue": "{\r\n  args: {\r\n    data: ['X-Small', 'Small', 'Medium', 'Large', 'X-Large', '2X-Large']\r\n  },\r\n}"
+                    "defaultValue": "{\n  args: {\n    data: ['X-Small', 'Small', 'Medium', 'Large', 'X-Large', '2X-Large']\n  },\n}"
                 }
             ],
             ".storybook/preview.ts": [
