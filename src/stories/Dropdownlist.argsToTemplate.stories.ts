@@ -3,6 +3,7 @@ import {
   type StoryObj,
   moduleMetadata,
   applicationConfig,
+  argsToTemplate,
 } from '@storybook/angular';
 
 import {
@@ -13,8 +14,7 @@ import { provideAnimations } from '@angular/platform-browser/animations';
 
 // More on how to set up stories at: https://storybook.js.org/docs/angular/writing-stories/introduction
 const meta: Meta<DropDownListComponent> = {
-  title: 'Kendo/DropDownList',
-  component: DropDownListComponent,
+  title: 'Kendo/DropDownListArgs',
   decorators: [
     moduleMetadata({
       imports: [DropDownListModule],
@@ -26,6 +26,7 @@ const meta: Meta<DropDownListComponent> = {
 
   tags: ['autodocs'],
   render: (args: DropDownListComponent) => ({
+    template: `<kendo-dropdownlist ${argsToTemplate(args)}></kendo-dropdownlist>`,
     props: {
       ...args,
     },
