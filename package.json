@@ -32,12 +32,12 @@
     "@angular/compiler-cli": "^16.2.12",
     "@angular/localize": "^16.2.12",
     "@compodoc/compodoc": "^1.1.22",
-    "@storybook/addon-docs": "0.0.0-pr-24798-sha-f16de2fb",
-    "@storybook/addon-essentials": "0.0.0-pr-24798-sha-f16de2fb",
-    "@storybook/addon-interactions": "0.0.0-pr-24798-sha-f16de2fb",
-    "@storybook/addon-links": "0.0.0-pr-24798-sha-f16de2fb",
-    "@storybook/angular": "0.0.0-pr-24798-sha-f16de2fb",
-    "@storybook/blocks": "0.0.0-pr-24798-sha-f16de2fb",
+    "@storybook/addon-docs": "7.6.0-alpha.5",
+    "@storybook/addon-essentials": "7.6.0-alpha.5",
+    "@storybook/addon-interactions": "7.6.0-alpha.5",
+    "@storybook/addon-links": "7.6.0-alpha.5",
+    "@storybook/angular": "7.6.0-alpha.5",
+    "@storybook/blocks": "7.6.0-alpha.5",
     "@storybook/testing-library": "^0.2.2",
     "@types/jasmine": "~4.3.0",
     "jasmine-core": "~4.6.0",
@@ -48,7 +48,7 @@
     "karma-jasmine-html-reporter": "~2.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "storybook": "0.0.0-pr-24798-sha-f16de2fb",
+    "storybook": "7.6.0-alpha.5",
     "typescript": "~5.1.3"
   }
 }
